@@ -136,9 +136,11 @@ youtube-transcript-api
 ```
 
 
+
 ## License
 
-Add a license like MIT or Apache-2.0 if you want to open-source it.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 ---
 
