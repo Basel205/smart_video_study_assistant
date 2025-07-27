@@ -1,4 +1,4 @@
-# 🎩 Smart Video Study Assistant 🎓
+# Smart Video Study Assistant
 
 This is a Streamlit web app that allows users to analyze YouTube videos using AI-powered tools. Simply paste a YouTube link and unlock insights such as:
 
@@ -7,7 +7,7 @@ This is a Streamlit web app that allows users to analyze YouTube videos using AI
 * Summaries (full or timestamped)
 * Auto-generated quizzes (MCQs)
 * RAG-based Q\&A system
-* ⬇Downloadable output for all features
+* Downloadable output for all features
 
 ---
 
@@ -52,7 +52,7 @@ streamlit run main_app.py
 * **RAG-based Q\&A**: Ask natural language questions; system retrieves relevant transcript pieces and answers them.
 * **Model Fallback**: Tries multiple free Together AI models in priority order if one fails.
 * **Smart Chunking**: Uses sentence embeddings to intelligently chunk long text.
-* ⬇**Download Options**: Save transcripts, explanations, summaries, and quizzes as `.txt` files.
+* **Download Options**: Save transcripts, explanations, summaries, and quizzes as `.txt` files.
 * **Future Add-ons**: PDF export, text-to-speech reading coming soon!
 
 ---
@@ -103,20 +103,6 @@ __pycache__/
 
 ---
 
-## GitHub Setup
-
-If uploading to GitHub for the first time:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/smart_video_study_assistant.git
-git branch -M main
-git push -u origin main
-```
-
----
 
 ## Example `requirements.txt`
 
